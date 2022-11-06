@@ -1,0 +1,3 @@
+{
+  "include": ["index.js", "grammars-v4/**/*.js"]
+}

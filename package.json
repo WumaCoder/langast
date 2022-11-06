@@ -1,0 +1,21 @@
+{
+  "name": "langast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build-runtime": "java -Xmx500M -cp \"./antlr-4.11.1-complete.jar:$CLASSPATH\" org.antlr.v4.Tool -Dlanguage=TypeScript ./grammars-v4/c/C.g4",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antlr4": "^4.11.0",
+    "libclang-bindings": "^3.1.1"
+  },
+  "devDependencies": {
+    "@types/antlr4": "^4.11.0"
+  }
+}
