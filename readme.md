@@ -11,6 +11,6 @@ pnpm start
 
 ## 关于
 
-antlr4
-grammars-v4
-wumacoder
+- antlr4
+- grammars-v4
+- wumacoder
