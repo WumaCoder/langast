@@ -5,7 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build-runtime": "java -Xmx500M -cp \"./antlr-4.11.1-complete.jar:$CLASSPATH\" org.antlr.v4.Tool -Dlanguage=TypeScript ./grammars-v4/c/C.g4",
+    "build-runtime-c": "java -Xmx500M -cp \"./antlr-4.11.1-complete.jar:$CLASSPATH\" org.antlr.v4.Tool -Dlanguage=JavaScript ./grammars-v4/c/C.g4",
+    "build-runtime-js": "java -Xmx500M -cp \"./antlr-4.11.1-complete.jar:$CLASSPATH\" org.antlr.v4.Tool -Dlanguage=JavaScript ./grammars-v4/javascript/ecmascript/ECMAScript.g4",
+    "build-runtime-rust": "java -Xmx500M -cp \"./antlr-4.11.1-complete.jar:$CLASSPATH\" org.antlr.v4.Tool -Dlanguage=JavaScript ./grammars-v4/rust/RustLexer.g4 ./grammars-v4/rust/RustParser.g4",
     "start": "node index.js"
   },
   "keywords": [],
