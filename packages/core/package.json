@@ -1,0 +1,21 @@
+{
+  "name": "@langast/core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.0.3",
+    "vitest": "^0.26.2"
+  },
+  "dependencies": {
+    "antlr4ts": "0.5.0-alpha.4"
+  }
+}

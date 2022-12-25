@@ -1,0 +1,45 @@
+      crate
+      /   \
+  item     <EOF>
+   |
+ visItem
+   |
+function_
+   |
+  fn
+   |
+identifier
+   |
+    (
+   |
+blockExpression
+   |
+    {
+       |
+  statements
+       |
+    statement
+       |
+      item
+       |
+    macroItem
+       |
+ macroInvocationSemi
+       |
+   simplePath
+       |
+simplePathSegment
+       |
+identifier
+       |
+         !
+       |
+   tokenTree
+       |
+ tokenTreeToken
+       |
+macroLiteralToken
+       |
+literalExpression
+       |
+       ;

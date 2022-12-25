@@ -1,0 +1,23 @@
+{
+  "folders": [
+    {
+      "name": "✨ langast",
+      "path": "."
+    },
+    {
+      "name": "grammars-v4",
+      "path": "grammars-v4"
+    },
+    {
+      "name": "📦 @langast/core",
+      "path": "packages/core"
+    },
+    {
+      "name": "📦 @langast/play",
+      "path": "packages/play"
+    }
+  ],
+  "settings": {
+    "commentTranslate.source": "Kaiqun.tencent-cloud-translate-tencentCloud"
+  }
+}
